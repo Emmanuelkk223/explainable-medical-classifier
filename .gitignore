@@ -1,0 +1,127 @@
+# ==========================================
+# Python & Virtual Environments
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+miniforge3/
+anaconda3/
+
+# ==========================================
+# Datasets & Heavy Data Files
+# ==========================================
+# Raw image datasets & archives
+data/raw/*
+!data/raw/.gitkeep
+*.zip
+*.tar.gz
+*.tgz
+*.7z
+
+# Exclude generated dataset artifacts if large, but keep directory structure
+# Uncomment if metadata splits are tracked via Git LFS or script instead:
+# data/metadata_splits/*.csv
+
+# ==========================================
+# Model Checkpoints & Weights
+# ==========================================
+*.pt
+*.pth
+*.bin
+*.onnx
+*.safetensors
+*.ckpt
+*.h5
+*.pkl
+*.joblib
+models/
+checkpoints/
+runs/
+wandb/
+
+# ==========================================
+# Jupyter Notebooks & Testing
+# ==========================================
+.ipynb_checkpoints
+*-checkpoint.ipynb
+.pytest_cache/
+.coverage
+htmlcov/
+.nox/
+.tox/
+
+# ==========================================
+# Streamlit & FastAPI Runtime
+# ==========================================
+.streamlit/secrets.toml
+*.log
+*.pid
+
+# ==========================================
+# LaTeX Build Artifacts
+# ==========================================
+# Keeps main.tex, ignores compilation temporary files
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.glg
+*.glo
+*.gls
+*.idx
+*.ilg
+*.ind
+*.lof
+*.log
+*.lot
+*.out
+*.pdf
+*.run.xml
+*.synctex.gz
+*.toc
+*-blx.bib
+
+# ==========================================
+# IDEs & Operating System
+# ==========================================
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+.clang-d/
+.agents/
+.claude/data/metadata_splits/*.csv
+data/metadata_splits/*.csv
