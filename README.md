@@ -101,7 +101,7 @@ Ensure you have **Python 3.11** and `conda` or `venv` installed.
 
 ```bash
 # Clone the repository
-git clone [https://github.com/Emmanuelkk223/explainable-medical-classifier.git](https://github.com/your-username/explainable-medical-classifier.git)
+git clone https://github.com/Emmanuelkk223/explainable-medical-classifier.git
 cd explainable-medical-classifier
 
 # Create and activate virtual environment
